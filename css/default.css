@@ -1,1 +1,179 @@
-default
+html, body, div, a, p, ul, li, ol, dl, dd, dt, span, em, del, strong, form, b, s, ins, h1, h2, h3, h4, h5, h6, img, font, center, label, table, th, tdselect, button, iframe, fieldset {
+	padding: 0;
+	margin: 0;
+}
+body,html{
+	width:100%;
+	height:100%;
+	font:12px/20px Microsoft Yahei,\\5FAE\8F6F\96C5\9ED1,STHeiti Light,\\534E\6587\7EC6\9ED1,SimSun,\\5B8B\4F53,Arial,sans-serif;
+}
+
+body{
+	font-size:12px;
+	letter-spacing:0;
+}
+li,ol,ul{
+	list-style:none;
+}
+a,a:focus{
+	outline:none;
+}
+a{
+	text-decoration:none;
+}
+strong,b{
+	font-weight:bold;
+}
+.clearfix{
+	zoom:1;
+}
+.clearfix:before,.clearfix:after{
+	content:"";
+	display:table;
+}
+.clearfix:after{
+	clear:both;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight:400;
+}
+h2{
+	display:block;
+	font-size:1.5em;
+	-webkit-margin-before:0.83em;
+	-webkit-margin-after:0.83em;
+	-webkit-margin-start:0px;
+	-webkit-margin-end:0px;
+	font-weight:bold;
+}
+
+header{
+	min-width:1180px;
+}
+div{
+	display:block;
+}
+.error-head{
+	background-color:#222;
+	height:40px;
+	top:0;
+	left:0;
+	z-index:999;
+	width:100%;
+}
+.error-head .area{
+	position:relative;
+}
+.area{
+	width:1180px;
+	margin:0 auto;
+}
+.error-head .nav-head{
+	position:absolute;
+	left:0;
+	top:0;
+	height:40px;
+}
+.left{
+	float:left;
+}
+.error-head .nav-head .index1{
+	width:400px;
+	font-size:14px;
+	text-align:left;
+	padding-left:0;
+}
+.error-head .nav-head li{
+	float:left;
+	color:#fff;
+	font-size:16px;
+	line-height:40px;
+	height:40px;
+	padding:0px 15px;
+	margin-right:5px;
+	text-align:center;
+}
+.nav-sign{
+	float:right;
+	line-height:40px;
+}
+.nav-sign ul li{
+	float:left;
+	position:relative;
+	z-index:999;
+	color:#fff;
+	font-size:14px;
+	line-height:40px;
+	height:40px;
+	margin-right:5px;
+	text-align:center;
+	padding:0px 10px;
+}
+.nav-sign ul li a{
+	color:#fff;
+}
+.nav-sel{
+	padding:0 5px;
+	cursor:pointer;
+	width:85px;
+}
+.nav-search{
+	padding:24px 0 14px 0;
+	border-bottom:2px solid #ed4040;
+}
+.w1190{
+	width:1190px;
+	min-width:1190px;
+	margin:0 auto;
+	position:relative;
+}
+.nav-search h2{
+	float:left;
+	margin:0px 100px 12px 0;
+	height:51px;
+}
+.search-input{
+	float:left;
+	width:550px;
+}
+.logoright{
+	float:right;
+	width:350px;
+	line-height:60px;
+	height:60px;
+	text-align:right;
+	font-size:14px;
+	color:#dddddd;
+}
+.nav-channel{
+	width:1190px;
+	margin:0 auto;
+	padding:14px 0;
+}
+.channer-main .channer-a{
+	padding:0 8px 0 2px
+}
+.channer-main{
+	float:left;
+	padding:0 8px 0 20px
+}
+.channer-main ul li{
+	float:left;
+	width:50px;
+	height:32px;
+	line-height:32px;
+	text-align:left;
+}
+.red, a.red{
+	color:#c60204;
+}
+.channer-main ul li a{
+	font-size:15px;
+	color:#222;
+}
+.channer-main ul li a.red{
+	color:#ed4040;
+}
+.channer-main + .channer-main{
+	border-left:1px solid #ddd;
+}

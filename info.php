@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="cn">
+<head>
+		 <title>haodai</title>
+        <meta name="description" content="haodai" />
+        <meta name="keywords"content="keywords haodai" />
+        <meta name="Author" content="wanguo" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <base target="_blank" />
+        <link rel="stylesheet" type="text/css" href="./css/default.css">
+        <script type="text/javascript" src="./js/default.js"></script>
+</head>
+<body>
+<header id="main-header" class="error-head" style="position:static;">
+    <div class="area">
+         <div class="nav-head left">
+             <ul>
+                <li class="index1">好贷网：让天下没有难贷的款！</li>
+             </ul>
+         </div>
+         <div class="nav-sign">
+             <ul class="clearfix">
+                 <li>
+                     <a href="#" target="_blank">用户登陆</a>
+                 </li>
+                 <li class="nav-down">
+                     <p class="nav-sel">
+                         <a href="javascript::">网站导航</a>
+                         <em class="cor"></em>
+                     </p>
+    	             <div class="nav-check-w2 clearfix"></div>
+                 </li>
+             </ul>
+        </div>
+    </div>
+</header>
+<?php include('./nav.html')?>
+<!--End:导航列表区-->
+<div class="header-data">header-list</div>
+<!--End:公告信息-->
+<div class="main">main</div>
+<!--End:主体-->
+<div class="footer"></div>
+<!--End:底部-->
+</body>
+</html>
