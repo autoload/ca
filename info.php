@@ -8,14 +8,16 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <base target="_blank" />
         <link rel="stylesheet" type="text/css" href="./css/default.css">
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
         <script type="text/javascript" src="./js/default.js"></script>
 </head>
 <body>
 <header id="main-header" class="error-head" style="position:static;">
     <div class="area">
          <div class="nav-head left">
-             <ul>
-                <li class="index1">好贷网：让天下没有难贷的款！</li>
+              <ul>
+                <li class="index"><a target="_blank" href="[!--news.url--]">首页</a></li>
+                [showclasstemp]'0',12,0,0[/showclasstemp]
              </ul>
          </div>
          <div class="nav-sign">
@@ -34,13 +36,90 @@
         </div>
     </div>
 </header>
-<?php include('./nav.html')?>
+
+
+
+
+<!--
+<div class="nav-channel clearfix">
+    <div class="channer-main channer-a">
+        <ul class="clearfix">
+            <li>
+                <a class="red" href="#" title="汉堡金融">
+                    <strong>汉堡</strong>
+                </a>
+            </li>
+            <li>
+                <a class="red" href="#">国内</a>
+            </li>
+            <li>
+                <a href="#">国际</a>
+            </li>
+            <li><a href="#">好贷</a></li>
+            <li><a href="#">信贷圈</a></li>
+        </ul>
+        
+    </div>
+    <div class="channer-main channer-b">
+        <ul class="clearfix">
+            <li>
+                <a class="red" href="#" title="汉堡金融">
+                    <strong>汉堡</strong>
+                </a>
+            </li>
+            <li>
+                <a class="red" href="#">国内</a>
+            </li>
+            <li>
+                <a href="#">国际</a>
+            </li>
+            <li><a href="#">好贷</a></li>
+            <li><a href="#">信贷圈</a></li>
+        </ul>
+    </div>
+    <div class="channer-main channer-b">
+        <ul class="clearfix">
+            <li>
+                <a class="red" href="#" title="汉堡金融">
+                    <strong>汉堡</strong>
+                </a>
+            </li>
+            <li>
+                <a class="red" href="#">国内</a>
+            </li>
+            <li>
+                <a href="#">国际</a>
+            </li>
+            <li><a href="#">好贷</a></li>
+            <li><a href="#">信贷圈</a></li>
+        </ul>
+    </div>
+    <div class="channer-main channer-b">
+        <ul class="clearfix">
+            <li>
+                <a class="red" href="#" title="汉堡金融">
+                    <strong>汉堡</strong>
+                </a>
+            </li>
+            <li>
+                <a class="red" href="#">国内</a>
+            </li>
+            <li>
+                <a href="#">国际</a>
+            </li>
+            <li><a href="#">好贷</a></li>
+            <li><a href="#">信贷圈</a></li>
+        </ul>
+    </div>
+</div>
+-->
 <!--End:导航列表区-->
-<div class="header-data">header-list</div>
-<!--End:公告信息-->
-<div class="main">main</div>
+<div class="main">
+<?php include('./index_content.html')?>
+<?php include('./index_random.html')?>
+</div>
 <!--End:主体-->
-<div class="footer"></div>
+<?php include('./footer.html')?>
 <!--End:底部-->
 </body>
 </html>
